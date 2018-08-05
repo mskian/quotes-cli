@@ -2,6 +2,10 @@
 
 > A Node CLI to display random quotes in Terminal
 
+<p align=center>
+<img src="https://github.com/mskian/quotes-cli/blob/master/screenshot.gif">
+</p>
+
 ## Install
 
 ```
