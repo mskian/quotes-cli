@@ -12,6 +12,7 @@
 - Just run the Below Commnad
 
 ```
+sanquotes
 ```
 
 ## API
