@@ -1,0 +1,34 @@
+{
+  "name": "sanquotes",
+  "version": "1.0.0",
+  "description": "Quotes CLI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sanquotes": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskian/quotes-cli.git"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "Santhosh veer",
+  "license": "MIT",
+  "engines": {
+    "node": "^6.9.0 || ^8.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mskian/quotes-cli/issues"
+  },
+  "homepage": "https://github.com/mskian/quotes-cli/issues#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "node-emoji": "^1.8.1",
+    "node-fetch": "^2.2.0",
+    "ora": "^3.0.0"
+  }
+}
