@@ -5,6 +5,7 @@
 ## Install
 
 ```
+npm install -g sanquotes
 ```
 
 ## Usage
