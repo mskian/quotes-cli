@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const ora = require("ora")
-const fetch = require("node-fetch")
-const chalk = require("chalk")
+const ora = require("ora");
+const fetch = require("node-fetch");
+const chalk = require("chalk");
 const emoji = require('node-emoji');
 
 async function fetchquotes(){
@@ -28,11 +28,11 @@ async function fetchquotes(){
     }
   }
 
-  fetchquotes()
+  fetchquotes();
 
   const printContent = json => {
-    console.log()
+    console.log();
     var random = json.quoteswritten[Math.floor(Math.random() * json.quoteswritten.length)];
     console.log(emoji.get('unicorn_face'), chalk.bgYellowBright.bold.black(random.quotes));
-    console.log()
+    console.log();
   }
