@@ -3,7 +3,7 @@
 > A Node CLI to display random quotes in Terminal & CMD
 
 <p align=center>
-<img src="https://github.com/mskian/quotes-cli/blob/master/screenshot.gif">
+<img src="https://raw.githubusercontent.com/mskian/quotes-cli/master/screenshot.gif">
 </p>
 
 ## Install
