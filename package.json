@@ -14,7 +14,9 @@
     "url": "git+https://github.com/mskian/quotes-cli.git"
   },
   "keywords": [
-    "quotes"
+    "quotes",
+    "random quotes",
+    "dailyquotes"
   ],
   "author": "Santhosh veer",
   "license": "MIT",
