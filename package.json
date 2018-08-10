@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/mskian/quotes-cli/issues"
   },
-  "homepage": "https://github.com/mskian/quotes-cli/issues#readme",
+  "homepage": "https://github.com/mskian/quotes-cli/#readme",
   "dependencies": {
     "chalk": "^2.4.1",
     "node-emoji": "^1.8.1",
