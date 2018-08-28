@@ -2,7 +2,7 @@
 
 > A Node CLI to display random quotes in Terminal & CMD
 
-<p align=center>
+<p align="center">
 <img src="https://raw.githubusercontent.com/mskian/quotes-cli/master/screenshot.gif">
 </p>
 
@@ -22,7 +22,7 @@ sanquotes
 
 ## API
 
-Visit - https://quotesapi.mskian.com/
+Visit - https://mskquotes.herokuapp.com/
 
 ## License
 
