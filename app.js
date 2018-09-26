@@ -7,7 +7,7 @@ const emoji = require('node-emoji');
 
 var apiurl = 'https://quotes.santhoshveer.com/quoteswritten.json';
 
-async function go() {
+async function fetchquotes() {
 
 	const spinner = ora('Fetching Quotes').start();
 
@@ -27,4 +27,4 @@ async function go() {
 	}
 }
   
-go();
+fetchquotes();
