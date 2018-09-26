@@ -1,38 +1,30 @@
-#!/usr/bin/env node
+'use strict';
 
 const ora = require('ora');
-const fetch = require('node-fetch');
+const axios = require('axios');
 const chalk = require('chalk');
 const emoji = require('node-emoji');
 
-async function fetchquotes(){
+var apiurl = 'https://quotes.santhoshveer.com/quoteswritten.json';
+
+async function go() {
+
 	const spinner = ora('Fetching Quotes').start();
-  
+
 	try {
-		await new Promise(resolve => setTimeout(resolve, 1000));
-		const response = await fetch('https://mskquotes.herokuapp.com/all');
-		if (response.ok) {
-			const json = await response.json();
-			spinner.stop();
-			printContent(json);
-		} else {
-			const json = await response.json();
-			spinner.stop();
-			console.log(`title: ${json.errors.title}
-              detail: ${json.errors.detail}`);
-		}
-	} catch (err) {
+		await new Promise(resolve => setTimeout(resolve, 2000));
+		const wes = await axios(apiurl);
+		var sanquotes = wes.data;
+		var random = sanquotes.quoteswritten[Math.floor(Math.random() * sanquotes.quoteswritten.length)];
 		spinner.stop();
-  
-		console.error(err);
+		console.log();
+		console.log(emoji.get('point_right'), chalk.bgYellowBright.bold.black(random.quotes));
+		console.log();
+
+	} catch (e) {
+		spinner.stop();
+		console.error(e);
 	}
 }
-
-fetchquotes();
-
-const printContent = json => {
-	console.log();
-	var random = json.quoteswritten[Math.floor(Math.random() * json.quoteswritten.length)];
-	console.log(emoji.get('point_right'), chalk.bgYellowBright.bold.black(random.quotes));
-	console.log();
-};
+  
+go();
