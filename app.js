@@ -1,4 +1,4 @@
-'use strict';
+#!/usr/bin/env node
 
 const ora = require('ora');
 const axios = require('axios');
