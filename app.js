@@ -9,7 +9,12 @@ var apiurl = 'https://quotes.santhoshveer.com/quoteswritten.json';
 
 async function fetchquotes() {
 
-	const spinner = ora('Fetching Quotes').start();
+	const spinner = new ora({
+		text: 'Fetching Quotes',
+		spinner: 'hamburger'
+	});
+
+	spinner.start();
 
 	try {
 		await new Promise(resolve => setTimeout(resolve, 1000));
