@@ -21,16 +21,16 @@
   "author": "Santhosh veer",
   "license": "MIT",
   "engines": {
-    "node": "^6.9.0 || ^8.9.0"
+    "node": "^8.9.0"
   },
   "bugs": {
     "url": "https://github.com/mskian/quotes-cli/issues"
   },
   "homepage": "https://github.com/mskian/quotes-cli/#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "chalk": "^2.4.1",
     "node-emoji": "^1.8.1",
-    "node-fetch": "^2.2.0",
     "ora": "^3.0.0"
   }
 }
