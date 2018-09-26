@@ -20,7 +20,7 @@ npm install -g sanquotes
 sanquotes
 ```
 
-## API
+## Quotes API
 
 Visit - https://quotes.santhoshveer.com/
 
