@@ -12,7 +12,7 @@ async function fetchquotes() {
 	const spinner = ora('Fetching Quotes').start();
 
 	try {
-		await new Promise(resolve => setTimeout(resolve, 2000));
+		await new Promise(resolve => setTimeout(resolve, 1000));
 		const wes = await axios(apiurl);
 		var sanquotes = wes.data;
 		var random = sanquotes.quoteswritten[Math.floor(Math.random() * sanquotes.quoteswritten.length)];
