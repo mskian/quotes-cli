@@ -22,7 +22,7 @@ sanquotes
 
 ## API
 
-Visit - https://mskquotes.herokuapp.com/
+Visit - https://quotes.santhoshveer.com/
 
 ## License
 
