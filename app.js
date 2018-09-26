@@ -17,9 +17,9 @@ async function fetchquotes() {
 		var sanquotes = wes.data;
 		var random = sanquotes.quoteswritten[Math.floor(Math.random() * sanquotes.quoteswritten.length)];
 		spinner.stop();
-		console.log();
+		console.log('\n');
 		console.log(emoji.get('point_right'), chalk.bgYellowBright.bold.black(random.quotes));
-		console.log();
+		console.log('\n');
 
 	} catch (e) {
 		spinner.stop();
