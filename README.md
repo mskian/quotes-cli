@@ -8,7 +8,7 @@
 
 ## Install
 
-```
+```bash
 npm install -g sanquotes
 ```
 
@@ -16,13 +16,13 @@ npm install -g sanquotes
 
 - Just run the Below Commnad
 
-```
+```bash
 sanquotes
 ```
 
 ## Quotes API
 
-Visit - https://quotes.santhoshveer.com/
+Visit - <https://quotes.santhoshveer.com/>
 
 ## License
 
