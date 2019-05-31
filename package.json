@@ -1,6 +1,6 @@
 {
   "name": "sanquotes",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Quotes CLI",
   "main": "app.js",
   "scripts": {
